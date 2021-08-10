@@ -1,0 +1,92 @@
+@keyframes rotate_circle {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes squere_extention {
+  10% {
+    transform: scaleY(1.8);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-box {
+  display: flex;
+  width: 800px;
+  height: 800px;
+  background-color: #6bbcbe;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-box {
+  height: 800px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.circle-box {
+  width: 250px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-delay: 1s;
+  animation: rotate_circle 1s ease infinite;
+}
+
+.squere-box {
+  width: 250px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+.squere {
+  background-color: white;
+  width: 12px;
+  height: 60px;
+  margin: 0 4px;
+}
+
+.squere:nth-child(1) {
+  animation: squere_extention 1s ease-out infinite;
+  animation-delay: 0.1s;
+}
+.squere:nth-child(2) {
+  animation: squere_extention 1s ease-out infinite;
+  animation-delay: 0.2s;
+}
+.squere:nth-child(3) {
+  animation: squere_extention 1s ease-out infinite;
+  animation-delay: 0.3s;
+}
+.squere:nth-child(4) {
+  animation: squere_extention 1s ease-out infinite;
+  animation-delay: 0.4s;
+}
+.squere:nth-child(5) {
+  animation: squere_extention 1s ease-out infinite;
+  animation-delay: 0.5s;
+}
