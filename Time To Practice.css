@@ -1,0 +1,57 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.big-box {
+  width: 300px;
+  height: 800px;
+  border: 5px solid #00c6ad;
+}
+
+.big-box__header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  width: 66%;
+}
+
+.big-box__music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 120px;
+}
+
+.big-box_music_bground {
+  width: 120px;
+  height: 120px;
+  background-color: #ffbd12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.big_box_music_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 30px;
+  width: 50%;
+}
