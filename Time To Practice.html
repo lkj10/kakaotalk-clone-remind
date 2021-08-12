@@ -1,54 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./Time To Practice.css">
-</head>
-<body>
-    <div class="big-box">
-        <div class="big-box__header">
-            <div class="big-box__header__title">
-                <div class="icon"><i class="fas fa-times"></i></div>
-                <div class="title"><p >Playlist</p></div>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <i class="fas fa-times"></i>
+        <h1>Playlist</h1>
+      </header>
+      <main>
+        <section class="main-song">
+          <div class="main-song__cover">
+            <i class="far fa-image fa-3x"></i>
+          </div>
+          <div class="main-song__data">
+              <h3 class="main-song__title">We Love 김치!</h3>
+              <h5 class="main-song__author">By Lynn</h5>
+          </div>
+        </section>
+        <section class="btns">
+          <span class="btns__btn btns__btn--big">
+            <i class="fas fa-play fa-xs"></i>
+            <span>Play</span>
+          </span>
+          <span class="btns__btn"><i class="fas fa-heart"></i></span>
+          <span class="btns__btn"><i class="fas fa-plus"></i></span>
+        </section>
+        <ul class="song-list">
+          <li class="song-list__song">
+            <div class="song-list__cover"></div>
+            <div class="song-list__data">
+                <h5>Corona Sucks</h5>
+                <h6>니꼬</h6>
             </div>
-        </div>
-        <div class="big-box__music">
-            <div class="big-box_music_bground">
-                <div class="big-box_music_imgicon">
-                    <i class="far fa-image fa-4x"></i>
-                </div>
+          </li>
+          <li class="song-list__song">
+            <div class="song-list__cover"></div>
+            <div class="song-list__data">
+                <h5>Corona Sucks</h5>
+                <h6>니꼬</h6>
             </div>
-            <div class="big_box_music_title">
-                <h1>Random 
-                    Love</h1>
-                <p>by Divay Kapoor</p>
+          </li>
+          <li class="song-list__song">
+            <div class="song-list__cover"></div>
+            <div class="song-list__data">
+                <h5>Corona Sucks</h5>
+                <h6>니꼬</h6>
             </div>
-        </div>
-        <div class="big-box__icon">
-            <div class="big-box__icon__play">
-                <div class="big-box__icon__play__icon"></div>
-                <div class="big-box__icon__play__title">
-                    <h1>Play</h1>
-                </div>
-            </div>
-            <div class="big-box__icon__heart">
-                <div class="big-box__icon__heart__icon"></div>
-            </div>
-            <div class="big-box__icon__plus">
-                <div class="big-box__icon__plus__icon"></div>
-            </div>
-        </div>
-        <div class="big-box__singer">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-
+          </li>
+        </ul>
+      </main>
     </div>
-    <script src="https://kit.fontawesome.com/eca90dcb49.js" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
